@@ -5,7 +5,7 @@ const {
     writefile
 } =require('../controller/blog')
 
-router.get('/', readfile)
+router.post('/read', readfile)
 router.post('/', writefile)
 
 module.exports = router;

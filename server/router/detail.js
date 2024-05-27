@@ -5,7 +5,7 @@ const {
     deletefile
 } =require('../controller/detail')
 
-router.get('/:id', readfile)
-router.get('/:id', deletefile)
+router.post('/:id', readfile)
+router.delete('/:id', deletefile)
 
 module.exports = router;
