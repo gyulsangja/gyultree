@@ -14,4 +14,4 @@ ENV PORT="8500" \
     ACCESS_SECRET="gyulgyul" \
     REFRESH_SECRET="gyulgyul" 
 EXPOSE 8500
-CMD ["npm", "run" "deploy"]
+CMD ["npm", "run" "start"]
